@@ -1,25 +1,27 @@
 <template name="pollForm">
 
 <form>
-    <div class="form-group">
-        <label>質問</label>
-        <input type="text" name="question" class="form-control" placeholder="Your Question">
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="question" name="question" type="text" class="validate">
+        <label for="question">あなたの質問</label>
+      </div>
     </div>
-
-    <div class="form-group">
-        <label>選択 #1</label>
-        <input type="text" name="choice1" class="form-control" placeholder="選択 #1">
+    <div class="row">
+      <div class="input-field col s4">
+        <input id="choice1" type="text" class="validate">
+        <label for="choice1">選択 #1</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="choice2" type="text" class="validate">
+        <label for="choice2">選択 #2</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="choice3" type="text" class="validate">
+        <label for="choice3">選択 #3</label>
+      </div>
     </div>
-    <div class="form-group">
-        <label>選択 #2</label>
-        <input type="text" name="choice2" class="form-control" placeholder="選択 #2">
-    </div>
-    <div class="form-group">
-        <label>選択 #3</label>
-        <input type="text" name="choice3" class="form-control" placeholder="選択 #3">
-    </div>
-
-    <button type="submit" class="btn btn-lg btn-primary btn-block">アンケート新規作成</button>
+    <button type="submit" class="waves-effect waves-light btn">アンケート新規作成</button>
 </form>
 
 </template>

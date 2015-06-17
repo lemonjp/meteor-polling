@@ -11,15 +11,15 @@ Meteor.startup(function() {
         choices: [
           { text: 'もちろん！', votes: 0 },
           { text: 'どうかな', votes: 0 },
-          { text: 'いいや、俺は素のJSがいいね', votes: 0 }
+          { text: '素のJSでいい', votes: 0 }
         ]
       },
       {
-        question: 'Reactってどうなの？',
+        question: 'Reactはどうですか？',
         choices: [
           { text: 'いいね', votes: 0 },
           { text: 'どうかな', votes: 0 },
-          { text: 'やっぱAngularでしょ', votes: 0 }
+          { text: 'やっぱAngular', votes: 0 }
         ]
       }
     ];

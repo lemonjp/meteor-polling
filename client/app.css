@@ -1,0 +1,12 @@
+body  {
+  padding-top:50px;
+}
+.polls  {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+}
+.poll   {
+  width:40%;
+  margin:20px;
+}
